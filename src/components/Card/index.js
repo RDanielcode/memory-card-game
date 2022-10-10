@@ -40,7 +40,7 @@ export const Cards = ({ counter, onChange }) => {
         console.log(counter)
         setTimeout(() => {
           dispatch({ type: actionTypes.initial })
-          if (counter === 1) {
+          if (counter === 9) {
             console.log('ok')
             setTimeout(() => {
               dispatch({ type: actionTypes.finish })
