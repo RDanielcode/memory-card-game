@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/'
+    publicPath: './'
   },
 
   mode: 'production',
@@ -38,6 +38,11 @@ module.exports = {
         use: [
           'css-loader'
         ]
+      },
+
+      {
+        test: /\.(gif|svg|jpg|png)$/,
+        loader: 'file-loader'
       }
     ]
   },

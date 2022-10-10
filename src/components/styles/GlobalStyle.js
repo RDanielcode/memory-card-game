@@ -3,12 +3,13 @@ import { createGlobalStyle } from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
   *{
     box-sizing: border-box;
+    margin: 0;
     font-family: sans-serif;
   }
 
-  html{
+  body{
     height: 100vh;
-    background-image: url('../../assets/ricknmortyb.jpg');
+    background-image: url('../../assets/ricknmortyback.jpg');
     background-size: cover;
   }
 `

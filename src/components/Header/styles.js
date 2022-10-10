@@ -9,6 +9,9 @@ export const Img = styled.div`
   font-size: 50px;
   color: #0096d2;
   @media (min-width: 600px) {
+    font-size: 75px
+  }
+  @media (min-width: 800px) {
     font-size: 100px
   }
 `

@@ -22,11 +22,11 @@ export const Box = styled.div`
   background-color:  #F9FBFC;
 `
 export const Message = styled.h4`
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Creepster', cursive;
 `
 export const Button = styled.button`
   font-family: 'Creepster', cursive;
-  font-size: 20px;
+  font-size: 12px;
 `
